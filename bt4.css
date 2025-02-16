@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    font-size: 22px;
+    width: fit-content;
+    border-bottom: 2px solid #f56a6a;
+    font-weight: bolder;
+  }
+  table {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .icon-box {
+    position: relative;
+    margin: 30px;
+    border: 2px solid rgb(207, 207, 207);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f56a6a;
+    transform: rotate(45deg);
+  }
+  .icon-box span,
+  .icon-box ion-icon {
+    font-size: 50px;
+    transform: rotate(-45deg);
+    position: absolute;
+  }
+  .content {
+    width: 350px;
+    padding: 10px;
+  }
+  .heading {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+  }
+  .paragraph {
+    font-weight: 550;
+    color: gray;
+    padding: 7px 0px;
+  }

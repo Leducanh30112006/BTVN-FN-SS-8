@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #fbfbfb;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  h2 {
+    padding-top: 45px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #868484;
+  }
+  .mainText {
+    color: gray;
+    padding: 35px 320px 20px;
+    font-size: 20px;
+  }
+  hr {
+    margin: 22px auto;
+    width: 40%;
+    border-bottom: 1px solid rgb(193, 192, 192);
+  }
+  .button {
+    margin: 35px auto 45px;
+  }
+  .button button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .down-button {
+    color: white;
+    background-color: #4696e5;
+    border: 1px solid #4696e5;
+  }
+  .bonus {
+    font-weight: 600;
+    color: gray;
+    background-color: #fbfbfb;
+    border: 2px solid rgb(228, 225, 225);
+  }
+  .foot {
+    background-color: #dfdfdf;
+    padding: 40px 0;
+  }
+  .icon {
+    font-size: 35px;
+    color: rgb(147, 146, 146);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .foot p {
+    color: rgb(147, 146, 146);
+    padding-top: 20px;
+    font-weight: 600;
+  }
+  .dotted-text {
+    text-decoration: underline dotted;
+  }
